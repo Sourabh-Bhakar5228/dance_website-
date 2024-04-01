@@ -1,0 +1,45 @@
+extends golu.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block body  
+    section#introsection 
+        div Welcome to the golu's dance acadamy
+        div.small Eat Sleep Dance Repeat
+    section#missionsection 
+        h2  Our Mission 
+        div.card
+            h3  Dance perfaction
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-contant
+                    p This is the best acadamy of  the universe
+
+        div.card
+            h3  Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-contant
+                    p This is the best acadamy of  the universe   
+        div.card
+            h3  Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-contant
+                    p This is the best acadamy of  the universe  
+
+    section#sponsorssection 
+        h2  Our Sponsors
+        div#sponsors
+            img(src="/static/img/logo1.png" alt=" Sponsors image" , Class= "spimage")  
+            img(src="/static/img/logo2.png" alt=" Sponsors image" , Class= "spimage")  
+            img(src="/static/img/logo3.png" alt=" Sponsors image" , Class= "spimage")  
+            img(src="/static/img/logo4.png" alt=" Sponsors image" , Class= "spimage")   

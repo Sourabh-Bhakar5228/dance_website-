@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: "Bruno Ace", cursive;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  margin: 0 14px;
+  color: white;
+  font-size: 23px;
+}
+#logo img {
+  height: 50px;
+}
+#navbar {
+  background-color: rgb(118 84 84);
+  padding: 13px 14px;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 7px 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+}
+#navbar li a:hover {
+  color: aqua;
+}
+#introsection {
+  background: center / cover no-repeat url("/static/bg.jpg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  padding-bottom: 35px;
+  /* background-color: rgb(144, 179, 166); */
+  color: white;
+}
+#introsection div.small {
+  padding: 5px;
+  font-size: 40px;
+}
+#missionsection {
+  height: 360px;
+  background-color: rgb(153, 153, 190);
+}
+#missionsection h2 {
+  text-align: center;
+  padding-top: 12px;
+  color: #1bfa61;
+}
+.card {
+  border: 3px solid green;
+  border-radius: 10px;
+  width: 30%;
+  margin: 23px 14px;
+  height: 260px;
+  display: inline-block;
+}
+.card h3 {
+  text-align: center;
+  margin: 13px;
+  color: #86fefe;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.card-img {
+  height: 190px;
+  padding: 0 14px;
+}
+.card-img img {
+  height: inherit;
+}
+.card-contant {
+  padding: 0 17px;
+}
+.card-contant p {
+  font-size: 23px;
+}
+#sponsorssection {
+  height: 290px;
+  background-color: rgb(53 53 127);
+}
+#sponsorssection h2 {
+  text-align: center;
+  padding-top: 12px;
+  color: white;
+}
+#sponsors {
+  height: 120px;
+  max-width: 1180px;
+  margin: 23px auto;
+}
+.spimage {
+  height: 180px;
+  margin: 20px;
+}
+
+#footer {
+  height: 40px;
+  display: flex;
+  background-color: rgb(114, 76, 76);
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
